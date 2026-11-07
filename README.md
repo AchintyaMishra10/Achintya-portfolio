@@ -29,3 +29,19 @@ Open http://localhost:8080 in your browser.
 - `Achintya_Mishra_Resume.pdf` — Résumé with clickable GitHub link
 
 The site can be served by any static website host. Google Fonts requires an internet connection; system fonts are used as fallbacks.
+
+## Publish with GitHub Pages
+
+The site is ready to publish directly from this repository without a build step.
+
+1. For GitHub Free, make the repository public in **Settings → General → Danger Zone → Change repository visibility**.
+2. Open **Settings → Pages**.
+3. Under **Build and deployment**, choose **Deploy from a branch**.
+4. Choose branch **main** and folder **/ (root)**, then click **Save**.
+5. Wait for GitHub's deployment to finish. The Pages settings screen will show the live link.
+
+Once GitHub Pages is enabled and deployed, the website URL will be:
+
+https://achintyamishra10.github.io/Achintya-portfolio/
+
+The `.nojekyll` file tells GitHub Pages to serve the static files directly.
