@@ -51,7 +51,7 @@ The `.nojekyll` file tells GitHub Pages to serve the static files directly.
 The `render.yaml` Blueprint configures this portfolio as a static site. Connect this GitHub repository to Render and create a Blueprint, or use the same build command and publish directory when creating a Static Site.
 
 - Branch: `main`
-- Build command: `mkdir -p dist && cp index.html style.css script.js portrait.jpg Achintya_Mishra_Resume.pdf dist/`
+- Build command: `mkdir -p dist && cp index.html style.css script.js portrait.jpg Achintya_Mishra_Resume.pdf Achintya_Resume.pdf dist/`
 - Publish directory: `dist`
 - Auto-deploy: enabled
 

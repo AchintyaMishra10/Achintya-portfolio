@@ -4,5 +4,5 @@ services:
     runtime: static
     branch: main
     autoDeploy: true
-    buildCommand: mkdir -p dist && cp index.html style.css script.js portrait.jpg Achintya_Mishra_Resume.pdf dist/
+    buildCommand: mkdir -p dist && cp index.html style.css script.js portrait.jpg Achintya_Mishra_Resume.pdf Achintya_Resume.pdf dist/
     staticPublishPath: ./dist
