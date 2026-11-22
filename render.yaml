@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: achintya-portfolio
+    runtime: static
+    branch: main
+    autoDeploy: true
+    buildCommand: mkdir -p dist && cp index.html style.css script.js portrait.jpg Achintya_Mishra_Resume.pdf dist/
+    staticPublishPath: ./dist
